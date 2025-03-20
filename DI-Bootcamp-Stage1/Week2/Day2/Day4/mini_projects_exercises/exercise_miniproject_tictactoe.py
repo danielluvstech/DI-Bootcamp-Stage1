@@ -20,7 +20,7 @@ def player_input(player):
             else:
                 print("That spot is already taken. Try again.")
         except (IndexError, ValueError):
-            print("Invalid input. Please enter row and column as numbers between 0 and 2, or 'q' to quit.")
+            print("Please enter row and column as numbers between 0 and 2, or 'q' to quit.")
 
 def check_win(board, player):
     # Check rows, columns, and diagonals
